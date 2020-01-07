@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="All Test Cases">
+    <test name = "WisefullTests">
+        <classes>
+            <class name = "org.wisefull.tests.HomePageTests" ></class>
+            <class name = "org.wisefull.tests.CommonAreasTests" ></class>
+            <class name="org.wisefull.tests.LoginTests"></class>
+            <class name="org.wisefull.pages.PurchasePage"></class>
+        </classes>
+
+    </test>
+</suite>
